@@ -1,0 +1,121 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 230px;
+  background: #18181b;
+  color: white;
+  padding: 30px 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 40px;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar a {
+  color: #d4d4d8;
+}
+
+.sidebar a:hover {
+  color: white;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.header {
+  height: 80px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.header span {
+  color: #71717a;
+}
+
+.user {
+  font-weight: bold;
+}
+
+.dashboard {
+  padding: 30px;
+}
+
+.dashboard h1 {
+  font-size: 32px;
+}
+
+.subtitle {
+  color: #71717a;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.stat-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.stat-icon {
+  font-size: 30px;
+}
+
+.stat-card p {
+  color: #71717a;
+  font-size: 14px;
+}
+
+.stat-card h2 {
+  margin-top: 5px;
+}
+
+.race-section {
+  background: white;
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.race-section h2 {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 15px;
+  border-bottom: 1px solid #e4e4e7;
+}
+
+th {
+  color: #71717a;
+}
